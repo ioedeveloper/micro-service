@@ -15,7 +15,7 @@ class Api {
     init() {
         this.router.get("/", apiController.welcomeApi);
         this.router.post("/login", apiController.login);
-        this.router.post("/applyjsonpatch", apiController.verifyToken, apiController.applyJsonPatch);
+        this.router.patch("/applyjsonpatch", apiController.verifyToken, apiController.applyJsonPatch);
         this.router.post("/createthumbnail", apiController.verifyToken, apiController.createThumbnail);
     }
 }
