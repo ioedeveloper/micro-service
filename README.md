@@ -2,7 +2,7 @@
 A stateless micro-service in Node, which implements Authentication, JSON patching and Image Thumbnail Generation.
 
 ## Docker Image
-[index.docker.io/ioedeveloper/micro-service:latest](index.docker.io/ioedeveloper/micro-service:latest)
+[index.docker.io/ioedeveloper/micro-service:latest](https://index.docker.io/ioedeveloper/micro-service:latest)
 
 ## How To Setup Application
 1. install node.js
